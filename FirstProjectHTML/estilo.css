@@ -1,0 +1,85 @@
+/* Tirando as formatações padrões */
+body {
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background: wheat;
+}
+
+/* Layout página */
+#cabecalho-area {
+    height: 100px;
+    padding: 20px;
+    background: red;
+}
+#logo-area{
+    text-align: center;
+    padding: 15px;
+}
+#menu-area {
+    text-align: center;
+    padding: 20px 20px;
+}
+#menu-area a {
+    padding: 10px;
+}
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#post-area {
+    background: rgb(241, 233, 197);
+    width: 660px;
+    float: left;
+}
+#card-area {
+    width: 240px;
+    float: right;
+    background: cornsilk;
+}
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background: rgb(247, 69, 69);
+}
+
+/* Formatação dos elementos */
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+h2 {
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.cards-conteudo a, .conteudo-post a {
+    color: black;
+    text-decoration: underline;
+}
+.cards-conteudo {
+    padding: 10px;
+    margin-bottom: 20px;
+    background: rgb(241, 233, 197);
+}
+#menu-area a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Formatações em geral */
+.branco {
+    color: white;
+}
+.posts-data{
+    font-size: 0.8em;
+    border-bottom: 1px solid rgb(22, 21, 21);
+    margin-bottom: 5px;
+    padding: 5px;
+    display: block;
+}
